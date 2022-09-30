@@ -1,0 +1,9 @@
+* {
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Title {
+    text-align: center;
+    background-color: rgb(250, 175, 175);
+}
