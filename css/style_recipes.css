@@ -1,17 +1,120 @@
 *{
-    background-color: azure;
+    background-color: #5CDB95;
     font-family: 'Times New Roman', Times, serif;
-}
-#Title,
-.description {
-    text-align: center;
-    background-color: rgb(250, 175, 175);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #05386B;
 }
 
-.img {
+#container {
+    display: flex;
+    padding: 20px 0;
+    height: 700px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #8EE4AF;
+}
+
+.title {
+    padding: 30px 20px;
+    background-color: #05386B;
+    color: #EDF5E1;
+}
+
+.img-link {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.link:link, .link:visited {
+    color: #05386B;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #8EE4AF;
+}
+
+.link:hover, .link:active {
+    background-color: #05386B;
+    color: #EDF5E1;
+}
+
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.desc-ing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.paragraph {
+    font-size: large;
+}
+
+.description h2,
+.ingredients h2,
+.steps h2 {
+    margin-bottom: 20px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    background-color: #8EE4AF;
+    padding: 10px;
+}
+
+.ingredients h2,
+.unlist > li {
+    background-color: #8EE4AF;
+}
+
+.unlist {
+    list-style: inside;
+}
+
+.steps {
+    background-color: #379683;
+    padding: 20px 25px;
+} 
+
+.steps > h2,
+.orlist > li {
+    background-color: #379683;
+    color: #EDF5E1;
+}
+
+.orlist {
+    font-size: large;
+}
+
+img {
+    width: 400px;
     height: auto;
-    width: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+li {
+    padding: 3px 0;
 }
