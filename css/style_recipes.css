@@ -118,3 +118,9 @@ img {
 li {
     padding: 3px 0;
 }
+
+li > strong {
+    background-color: #379683;
+    color: #EDF5E1;
+    font-size: larger;
+}
