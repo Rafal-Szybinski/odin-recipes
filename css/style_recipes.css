@@ -84,6 +84,7 @@
     flex-direction: column;
     background-color: #8EE4AF;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .ingredients h2,
